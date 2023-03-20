@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="images/favicon-32x32.png" />
       </Head>
       <main className="font-personal flex items-center px-5">
-        <div>
+        <div className="mb-[99px]">
           <div className="flex flex-col items-center mt-[79px] text-center mb-[30px]">
             <h1 className="text-[#502050] text-4xl leading-7 px-5  font-bold mb-[20px]">
               10,000+ of our users love our products.
