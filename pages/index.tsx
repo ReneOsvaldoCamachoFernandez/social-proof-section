@@ -30,25 +30,25 @@ export default function Home() {
           <div className="flex flex-col gap-[16px] mb-[49px] text-[#502050] ">
             <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
               <div className="flex gap-2 mb-[10px]">
-                {/*[1, 2, 3, 4, 5].map((i) => (
+                {[1, 2, 3, 4, 5].map((i) => (
                   <Image src={StarIco} alt="ico" key={i}></Image>
-                ))*/}
+                ))}
               </div>
               <p className="font-bold">Rated 5 Stars in Reviews</p>
             </div>
             <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
               <div className="flex gap-2 mb-[10px]">
-                {/*[1, 2, 3, 4, 5].map((i) => (
+                {[1, 2, 3, 4, 5].map((i) => (
                   <Image src={StarIco} alt="ico" key={i}></Image>
-                ))*/}
+                ))}
               </div>
               <p className="font-bold">Rated 5 Stars in Report Guru</p>
             </div>
             <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
               <div className="flex gap-2 mb-[10px]">
-                {/*[1, 2, 3, 4, 5].map((i) => (
+                {[1, 2, 3, 4, 5].map((i) => (
                   <Image src={StarIco} alt="ico" key={i}></Image>
-                ))*/}
+                ))}
               </div>
               <p className="font-bold">Rated 5 Stars in BestTech</p>
             </div>
@@ -70,9 +70,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="mt-[28px]">
-                "We needed the same printed design as the one we had ordered a
-                week prior. Not only did they find the original order, but we
-                also received it in time. Excellent!"
+                &quot;We needed the same printed design as the one we had
+                ordered a week prior. Not only did they find the original order,
+                but we also received it in time. Excellent!&quot;
               </p>
             </div>
 
@@ -91,9 +91,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="mt-[28px]">
-                "Customer service is always excellent and very quick turn
+                &quot;Customer service is always excellent and very quick turn
                 around. Completely delighted with the simplicity of the purchase
-                and the speed of delivery."
+                and the speed of delivery.&quot;
               </p>
             </div>
 
@@ -112,9 +112,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="mt-[28px]">
-                "Put an order with this company and can only praise them for the
-                very high standard. Will definitely use them again and recommend
-                them to everyone!"
+                &quot;Put an order with this company and can only praise them
+                for the very high standard. Will definitely use them again and
+                recommend them to everyone!&quot;
               </p>
             </div>
           </div>
