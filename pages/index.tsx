@@ -14,48 +14,55 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="images/favicon-32x32.png" />
       </Head>
-      <main className="font-personal flex items-center px-5">
-        <div className="mb-[99px]">
-          <div className="flex flex-col items-center mt-[79px] text-center mb-[30px]">
-            <h1 className="text-[#502050] text-4xl leading-7 px-5  font-bold mb-[20px]">
-              10,000+ of our users love our products.
-            </h1>
-            <p className="text-[#937B92] font-medium text-[15px] px-[27px]">
-              We only provide great products combined with excellent customer
-              service. See what our satisfied customers are saying about our
-              services.
-            </p>
-          </div>
+      <main className="font-personal flex items-center px-5 xl:px-[166px]">
+        <div className="mb-[99px] xl:flex xl:flex-col">
+          <div className="xl:flex  xl:mb-[74px]">
+            <div className="xl:w-[50%] xl:text-left xl:pr-[20px] flex flex-col items-center mt-[79px] text-center mb-[30px] xl:mb-0">
+              <h1 className="text-[#502050] text-4xl xl:text-6xl   leading-7 xl:leading-[3rem] px-5 xl:px-0 xl:pr-[50px] font-bold mb-[20px]">
+                10,000+ of our users love our products.
+              </h1>
+              <p className="text-[#937B92] font-medium text-[15px] xl:text-lg pr-[27px] xl:pr-[55px]">
+                We only provide great products combined with excellent customer
+                service. See what our satisfied customers are saying about our
+                services.
+              </p>
+            </div>
 
-          <div className="flex flex-col gap-[16px] mb-[49px] text-[#502050] ">
-            <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
-              <div className="flex gap-2 mb-[10px]">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Image src={StarIco} alt="ico" key={i}></Image>
-                ))}
+            <div className="xl:ml-[20px] xl:mt-[79px] xl:w-[50%] flex flex-col gap-[16px] mb-[49px] xl:mb-0 text-[#502050] ">
+              <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col xl:flex-row xl:w-[445px] xl:pl-[30px] items-center">
+                <div className="flex gap-2 mb-[10px]">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <Image src={StarIco} alt="ico" key={i}></Image>
+                  ))}
+                </div>
+                <p className="font-bold xl:ml-[30px] xl:text-lg">
+                  Rated 5 Stars in Reviews
+                </p>
               </div>
-              <p className="font-bold">Rated 5 Stars in Reviews</p>
-            </div>
-            <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
-              <div className="flex gap-2 mb-[10px]">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Image src={StarIco} alt="ico" key={i}></Image>
-                ))}
+              <div className="rounded-lg xl:ml-[48px] py-[16px] bg-[#F7F2F7] flex flex-col xl:flex-row xl:w-[445px] xl:pl-[30px] items-center">
+                <div className="flex gap-2 mb-[10px]">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <Image src={StarIco} alt="ico" key={i}></Image>
+                  ))}
+                </div>
+                <p className="font-bold xl:ml-[30px] xl:text-lg">
+                  Rated 5 Stars in Report Guru
+                </p>
               </div>
-              <p className="font-bold">Rated 5 Stars in Report Guru</p>
-            </div>
-            <div className="rounded-lg py-[16px] bg-[#F7F2F7] flex flex-col items-center">
-              <div className="flex gap-2 mb-[10px]">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <Image src={StarIco} alt="ico" key={i}></Image>
-                ))}
+              <div className="rounded-lg xl:ml-[96px] py-[16px] bg-[#F7F2F7] flex flex-col xl:flex-row xl:w-[445px] xl:pl-[30px] items-center">
+                <div className="flex gap-2 mb-[10px]">
+                  {[1, 2, 3, 4, 5].map((i) => (
+                    <Image src={StarIco} alt="ico" key={i}></Image>
+                  ))}
+                </div>
+                <p className="font-bold xl:ml-[30px] xl:text-lg">
+                  Rated 5 Stars in BestTech
+                </p>
               </div>
-              <p className="font-bold">Rated 5 Stars in BestTech</p>
             </div>
           </div>
-
-          <div className="flex flex-col gap-[16px]">
-            <div className="rounded-lg px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
+          <div className="flex flex-col xl:flex-row gap-[16px]">
+            <div className="rounded-lg xl:h-[234px] px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
               <div className=" flex ">
                 <Image
                   src={ImageColton}
@@ -76,7 +83,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="rounded-lg px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
+            <div className="rounded-lg xl:h-[234px] xl:mt-[16px] px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
               <div className=" flex">
                 <Image
                   src={ImageIrene}
@@ -97,7 +104,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="rounded-lg px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
+            <div className="rounded-lg  xl:h-[234px] xl:mt-[32px] px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
               <div className=" flex">
                 <Image
                   src={ImageAnne}
