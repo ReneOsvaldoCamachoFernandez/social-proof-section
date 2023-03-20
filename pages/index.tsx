@@ -4,6 +4,7 @@ import ImageColton from "public/images/image-colton.jpg";
 import ImageIrene from "public/images/image-irene.jpg";
 import ImageAnne from "public/images/image-anne.jpg";
 import StarIco from "public/images/icon-star.svg";
+
 export default function Home() {
   return (
     <>
@@ -55,7 +56,7 @@ export default function Home() {
 
           <div className="flex flex-col gap-[16px]">
             <div className="rounded-lg px-[30px] py-[40px] flex flex-col bg-[#502050] text-[#FFFFFF]">
-              <div className=" flex">
+              <div className=" flex ">
                 <Image
                   src={ImageColton}
                   alt="ico"
